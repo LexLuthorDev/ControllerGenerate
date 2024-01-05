@@ -1,0 +1,26 @@
+{
+  "name": "controllergenerate",
+  "version": "1.0.15",
+  "description": "CLI para criar diretório e gerar arquivo de controller",
+  "main": "bin/minha-cli.js",
+  "bin": {
+    "controllergenerate": "./bin/controllerGenerate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./bin/controllerGenerate.js"
+  },
+  "keywords": [
+    "CLI",
+    "controller",
+    "generator",
+    "nodejs",
+    "javascript",
+    "Sequelize"
+  ],
+  "author": "LexLuthor",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
